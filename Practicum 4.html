@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>SupplySphere - CSS Text Styles and Layouts</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 40px;
+                background-color: #f5f5f5;
+            }
+            .container {
+                width: 90%;
+                max-width: 700px;
+                margin: auto;
+                background-color: white;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+            h1 {
+                font-size: 32px;
+                font-weight: 900;
+            }
+            h2 {
+                font-size: 24px;
+            }
+            p {
+                font-size: 16px;
+            }
+            .container {
+                border-radius: 8px;
+            }
+            .layout {
+                display: flex;
+                gap: 20px;
+            }
+            .box {
+                border: 1px solid #999;
+                border-radius: 8px;
+                padding: 20px;
+                flex: 1;
+            }
+            .side p {
+                font-style: italic;
+            }
+            .main p {
+                text-transform: uppercase;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>SupplySphere</h1>
+            <hr>
+            <h2>Supply Chain and Logistics Optimization</h2>
+            <p>SupplySphere helps businesses manage transportation, inventory, and product delivery efficiently.</p>
+
+            <div class="layout">
+
+                <div class="side box">
+                    <h2>Our Services</h2>
+                    <p>We help businesses manage inventory, track shipments, and improve supply chain operations.</p>
+                </div>
+
+                <div class="main box">
+                    <h2>Our Mission</h2>
+                    <p>Our mission is to reduce delivery delays, improve logistics, and ensure smooth product distribution.</p>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
